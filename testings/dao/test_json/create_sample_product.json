@@ -1,0 +1,104 @@
+{
+	"product": {
+		"bar_code": "",
+		"brand_id": null,
+		"category_id": "${category_id}",
+		"code": "",
+		"content_mobile": "",
+		"content_pc": "${content_pc}",
+		"create_date": "",
+		"id": null,
+		"is_del": 0,
+		"is_discount": 1,
+		"is_group": 0,
+		"is_use": 0,
+		"name": "${name}",
+		"pic":"${pic}",
+		"product_type": 1,
+		"selling_point": "${name}",
+		"update_date": "",
+		"video": "",
+		"is_drugs": 0,
+		"virtual_invalid_refund": 1
+	},
+	"product_attr": [
+		{
+			"attr_id": 15,
+			"attr_value_id": null,
+			"id": null,
+			"product_id": null
+		},
+		{
+			"attr_id": 16,
+			"attr_value_id": null,
+			"id": null,
+			"product_id": null
+		},
+		{
+			"attr_id": 17,
+			"attr_value_id": null,
+			"id": null,
+			"product_id": null
+		},
+		{
+			"attr_id": 18,
+			"attr_value_id": null,
+			"id": null,
+			"product_id": null
+		},
+		{
+			"attr_id": 19,
+			"attr_value_id": null,
+			"id": null,
+			"product_id": null
+		}
+	],
+	"sku_info": [
+		{
+			"market_price": "${market_price}",
+			"retail_price": "${retail_price}",
+			"sku_group": [],
+			"sku_id": null,
+			"sku_third": [
+				{
+					"erp_id": 2,
+					"third_sku_id": "${a8_third_sku_id}",
+					"erp_name": "A8货号"
+				},
+				{
+					"erp_id": 3,
+					"third_sku_id": "${gy_third_sku_id}",
+					"erp_name": "管易货号"
+				},
+				{
+					"erp_id": 4,
+					"third_sku_id": "${zl_third_sku_id}",
+					"erp_name": "子龙货号"
+				}
+			],
+			"skuv": [
+				{
+					"id": null,
+					"spec_id": 1,
+					"spec_value_id": 1,
+					"sku_id": null,
+					"spec_name": "种类",
+					"spec_value_value": "小型幼犬1.5KG",
+					"pic": "${spec_pic}"
+				}
+			],
+			"bar_code": "${bar_code}"
+		}
+	],
+	"product_tags": {
+		"species": "不限",
+		"varieties": "不限",
+		"sex": "不限",
+		"age": "不限",
+		"special_stage": "不限",
+		"is_sterilization": "不限",
+		"content_type": "不限",
+		"status": "不限",
+		"product_type": 1
+	}
+}

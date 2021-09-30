@@ -1,0 +1,198 @@
+data:
+-   begin_time: '2023-09-07 17:02:59'
+    channel_id: '5'
+    create_time: '2021-09-13 10:49:55'
+    end_time: '2023-09-07 17:09:59'
+    id: 2938
+    is_shipping_free: 0
+    is_system_end: 0
+    seckill_order_limit: 2266
+    status: 1
+    status_text: 未开始
+    title: PY自动化Bg
+    types: 11
+    update_time: '2021-09-13 10:49:55'
+-   begin_time: '2023-09-07 17:11:59'
+    channel_id: '5'
+    create_time: '2021-09-13 10:49:55'
+    end_time: '2023-09-07 17:18:59'
+    id: 2939
+    is_shipping_free: 0
+    is_system_end: 0
+    seckill_order_limit: 5513
+    status: 1
+    status_text: 未开始
+    title: PY自动化Yxx3Nt2P1D
+    types: 11
+    update_time: '2021-09-13 10:49:55'
+-   begin_time: '2023-09-07 17:20:59'
+    channel_id: '5'
+    create_time: '2021-09-13 10:49:55'
+    end_time: '2023-09-07 17:27:59'
+    id: 2940
+    is_shipping_free: 0
+    is_system_end: 0
+    seckill_order_limit: 9342
+    status: 1
+    status_text: 未开始
+    title: PY自动化Fcxe
+    types: 11
+    update_time: '2021-09-13 10:49:55'
+-   begin_time: '2023-09-07 16:44:59'
+    channel_id: '5'
+    create_time: '2021-09-13 10:49:54'
+    end_time: '2023-09-07 16:51:59'
+    id: 2936
+    is_shipping_free: 0
+    is_system_end: 0
+    seckill_order_limit: 3265
+    status: 1
+    status_text: 未开始
+    title: PY自动化Nijbghibncuh7Yzfed
+    types: 11
+    update_time: '2021-09-13 10:49:54'
+-   begin_time: '2023-09-07 16:53:59'
+    channel_id: '5'
+    create_time: '2021-09-13 10:49:54'
+    end_time: '2023-09-07 17:00:59'
+    id: 2937
+    is_shipping_free: 0
+    is_system_end: 0
+    seckill_order_limit: 0
+    status: 1
+    status_text: 未开始
+    title: PY自动化Bwttafhobz
+    types: 11
+    update_time: '2021-09-13 10:49:54'
+-   begin_time: '2023-09-07 15:49:59'
+    channel_id: '5'
+    create_time: '2021-09-13 10:43:14'
+    end_time: '2023-09-07 15:56:59'
+    id: 2933
+    is_shipping_free: 0
+    is_system_end: 0
+    seckill_order_limit: 9865
+    status: 4
+    status_text: 已终止
+    title: PY自动化Sb6Pk
+    types: 11
+    update_time: '2021-09-13 10:43:24'
+-   begin_time: '2023-09-07 15:58:59'
+    channel_id: '5'
+    create_time: '2021-09-13 10:43:14'
+    end_time: '2023-09-07 16:05:59'
+    id: 2934
+    is_shipping_free: 0
+    is_system_end: 0
+    seckill_order_limit: 8071
+    status: 4
+    status_text: 已终止
+    title: PY自动化F5Mpftm
+    types: 11
+    update_time: '2021-09-13 10:43:25'
+-   begin_time: '2023-09-07 16:07:59'
+    channel_id: '5'
+    create_time: '2021-09-13 10:43:14'
+    end_time: '2023-09-07 16:14:59'
+    id: 2935
+    is_shipping_free: 0
+    is_system_end: 0
+    seckill_order_limit: 8193
+    status: 1
+    status_text: 未开始
+    title: PY自动化Mtfpogsziqrih
+    types: 11
+    update_time: '2021-09-13 10:43:14'
+-   begin_time: '2023-09-07 15:31:59'
+    channel_id: '5'
+    create_time: '2021-09-13 10:43:13'
+    end_time: '2023-09-07 15:38:59'
+    id: 2931
+    is_shipping_free: 0
+    is_system_end: 0
+    seckill_order_limit: 3565
+    status: 1
+    status_text: 未开始
+    title: PY自动化Hzkrk1Ujhmyupvcqce
+    types: 11
+    update_time: '2021-09-13 10:43:13'
+-   begin_time: '2023-09-07 15:40:59'
+    channel_id: '5'
+    create_time: '2021-09-13 10:43:13'
+    end_time: '2023-09-07 15:47:59'
+    id: 2932
+    is_shipping_free: 0
+    is_system_end: 0
+    seckill_order_limit: 0
+    status: 1
+    status_text: 未开始
+    title: PY自动化Sgbaqqt
+    types: 11
+    update_time: '2021-09-13 10:43:13'
+-   begin_time: '2023-09-07 14:27:59'
+    channel_id: '5'
+    create_time: '2021-09-09 09:40:05'
+    end_time: '2023-09-07 14:34:59'
+    id: 2927
+    is_shipping_free: 0
+    is_system_end: 0
+    seckill_order_limit: 0
+    status: 4
+    status_text: 已终止
+    title: PY自动化M
+    types: 11
+    update_time: '2021-09-09 09:40:15'
+-   begin_time: '2023-09-07 14:36:59'
+    channel_id: '5'
+    create_time: '2021-09-09 09:40:05'
+    end_time: '2023-09-07 14:43:59'
+    id: 2928
+    is_shipping_free: 0
+    is_system_end: 0
+    seckill_order_limit: 4478
+    status: 4
+    status_text: 已终止
+    title: PY自动化6Macnqjnuku3Tm2
+    types: 11
+    update_time: '2021-09-09 09:40:15'
+-   begin_time: '2023-09-07 14:45:59'
+    channel_id: '5'
+    create_time: '2021-09-09 09:40:05'
+    end_time: '2023-09-07 14:52:59'
+    id: 2929
+    is_shipping_free: 0
+    is_system_end: 0
+    seckill_order_limit: 2539
+    status: 1
+    status_text: 未开始
+    title: PY自动化S
+    types: 11
+    update_time: '2021-09-09 09:40:05'
+-   begin_time: '2023-09-07 14:54:59'
+    channel_id: '5'
+    create_time: '2021-09-09 09:40:05'
+    end_time: '2023-09-07 15:01:59'
+    id: 2930
+    is_shipping_free: 0
+    is_system_end: 0
+    seckill_order_limit: 9579
+    status: 1
+    status_text: 未开始
+    title: PY自动化Yvmw28Fco
+    types: 11
+    update_time: '2021-09-09 09:40:05'
+-   begin_time: '2023-09-07 14:18:59'
+    channel_id: '5'
+    create_time: '2021-09-09 09:40:04'
+    end_time: '2023-09-07 14:25:59'
+    id: 2926
+    is_shipping_free: 0
+    is_system_end: 0
+    seckill_order_limit: 8180
+    status: 1
+    status_text: 未开始
+    title: PY自动化Giq4Lxtirqg3Hq8Sko
+    types: 11
+    update_time: '2021-09-09 09:40:04'
+msg: ''
+total: 115

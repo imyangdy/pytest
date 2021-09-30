@@ -1,0 +1,9 @@
+{
+	"title": "${title}",
+	"begin_time": "${begin_time}",
+	"end_time": "${end_time}",
+	"seckill_order_limit": "${seckill_order_limit}",
+	"is_shipping_free": "${is_shipping_free}",
+	"user_id": "${user_id}",
+	"user_name": "${user_name}"
+}

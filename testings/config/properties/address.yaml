@@ -1,0 +1,28 @@
+backstage:
+  # 加购物车
+  add_st: /order-api/upetDj/CalcPromotionMoney
+applet:
+  # 加购物车
+  add_shop_cart: /order-api/upetDj/CalcPromotionMoney
+  # 检索商品详情
+  product_detail: /product-api/product/detail
+  # 店铺列表
+  store_list: /product-api/product/shop/search
+  # 店铺详情
+  store_detail: /product-api/shop/detail
+  # 获取店铺商品分类
+  category_list: /product-api/category/list
+  # 获取店铺商品列表
+  category_product_list: /product-api/category/product/list
+  # 小程序-秒杀活动列表
+  api_seckill_list: /product-api/product/seckill/list
+  # 小程序-获取秒杀活动商品列表
+  api_seckill_product_list: /product-api/product/seckill/product/list
+  # 小程序-秒杀活动提醒/取消提醒
+  api_seckill_product_notice: /product-api/product/seckill/product/notice
+  # 小程序-查询spu下参与秒杀活动的sku列表
+  api_seckill_product_sku_list: /product-api/product/seckill/product/sku-list
+  # 小程序-查询秒杀商品实时剩余库存
+  api_seckill_product_stock: /product-api/product/seckill/product/stock
+  # 本地生活-提交订单
+  docommit: /order-api/order/docommit

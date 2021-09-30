@@ -1,0 +1,32 @@
+email:
+  # 发件人邮箱
+  user:  "yuyq@rp-pet.cn"
+  # 发件人邮箱授权码
+  password:  "QINg0201$"
+  # 邮箱host
+  host:  "smtp.exmail.qq.com"
+  contents:  请使用已安装Live Server 插件的VsCode或者其它Ide，打开index.html查看报告
+  # 收件人邮箱
+  addressees:  ["yuyq@rp-pet.cn,zhangsd@rp-pet.cn,lvhb@rp-pet.cn"]
+  title:  本地生活-接口自动化测试报告
+  # 附件
+  enclosures: report.zip
+
+jenkins:
+  # 用户名
+  user:  "yuyq"
+  # 密码
+  password:  "yuyq123456"
+  # 项目名
+  job_name: "LocalLife"
+  # 连接地址
+  build_url: "http://10.1.234.2:8080"
+
+robot:
+  # 企业微信私钥
+  debug_qywx_key: "8fc94003-24f9-4b30-bd40-dd1e73af0df3"
+  qywx_key: "293cf934-fff1-4493-a492-c8ba777fa816"
+
+other:
+  # 项目概述
+  product: "本地生活"

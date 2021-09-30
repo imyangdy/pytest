@@ -1,0 +1,3 @@
+# 初始化程序必须要访问这个配置
+profiles: sit
+account: ordinary_account

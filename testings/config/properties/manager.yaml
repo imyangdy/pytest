@@ -1,0 +1,60 @@
+# login
+cas_login: /cas/login
+console_login: /console/login
+console_init: /console/init
+boss_login: /boss/login
+# 阿闻平台侧商品列表
+product_list: /boss/product/product/list
+# 获取渠道商品列表
+channel_product_list: /boss/product/channel-product/list
+# 阿闻平台商品主图
+media_item: /boss/product/media-item/list
+# 商品分类列表
+category_list: /boss/product/category/list
+# 管家分类列表
+channel_category_list: /boss/product/channel-category/list
+# 订单列表
+order_parent_list: /boss/ordercenter/order/parent/list
+# 创建商品
+create_product: /boss/product/product/new
+# 店铺信息
+store_info: /boss/datacenter/shop/shopstoreget
+# 获取平台商品编辑时的信息
+product_edit_query: /boss/product/product/edit-query
+# 获取管家商品编辑时的信息
+gj_product_edit_query: /boss/product/gj-product/edit-query
+# 获取渠道商品编辑时的信息
+channel_product_edit_query: /boss/product/product/edit-query-channel
+# 商品认领到渠道
+copy_channel: /boss/product/product/copy-channel
+# 渠道商品上架
+channel_up: /boss/product/channel-product/channel-up
+# 渠道商品上下架状态更新
+channel_status_refresh: /boss/product/channel-product/channel-status-refresh
+# 获取编辑商品时的tag信息
+product_tags: /boss/product/product/get-product-tags
+# 阿闻商品图片上传
+media_item_upload: /boss/product/media-item/upload
+
+#运营中心-秒杀活动-添加
+seckill_add: /boss/market/seckill/add
+#运营中心-秒杀活动-查看详情
+seckill_detail: /boss/market/seckill/detail
+#运营中心-秒杀活动-编辑
+seckill_edit: /boss/market/seckill/edit
+#运营中心-秒杀活动-终止
+seckill_stop: /boss/market/seckill/stop
+#运营中心-秒杀活动-查看列表
+seckill_list: /boss/market/seckill/list
+#运营中心-活动商品-添加/编辑
+seckill_product_add_or_edit: /boss/market/seckill/product/add-or-edit
+#运营中心-活动商品-查看列表
+seckill_product_list: /boss/market/seckill/product/list
+#运营中心-活动商品-获取电商商品列表
+seckill_product_select_list: /boss/market/seckill/product/select-list
+#运营中心-活动商品-查看详情
+seckill_product_detail: /boss/market/seckill/product/detail
+#运营中心-活动商品-删除
+seckill_product_delete: /boss/market/seckill/product/delete
+#运营中心-商品库存
+mall_product_stock: /mall/product/stock

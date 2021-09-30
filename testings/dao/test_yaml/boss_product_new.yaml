@@ -1,0 +1,131 @@
+config:
+- headers:
+    accept: application/json, text/plain, */*
+    accept-encoding: gzip
+    accept-language: zh-CN,zh;q=0.9
+    content-type: application/json;charset=UTF-8
+    user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+      like Gecko) Chrome/92.0.4515.107 Safari/537.36
+- allures:
+    feature: 阿闻平台创建商品
+    severity: normal
+- request:
+    method: get
+    url:  /boss/product/product/new
+test_setup:
+  new_succsed:
+    allures:
+      severity: critical
+      description: 这是继承测试的用例描述
+      story: 创建三个平台货号的商品
+    extract:
+      all: "$.aaxxx.aaaaa"
+    headers:
+      accept: application/json, text/plain, */*
+      accept-encoding: gzip
+      accept-language: zh-CN,zh;q=0.9
+    validations:
+      expected_code: 200
+      expected_content: {"code":200,"message":"","error":"","details":null}
+      expected_time: 10
+
+  only_good_zlthird_sku_id:
+    allures:
+      story: 创建单独的子龙货号商品
+      severity: critical
+    validations:
+        expected_code: 200
+        expected_content: {"code":200,"message":"","error":"","details":null}
+        expected_variables:
+         - $.json_path.xxxx: value
+
+  only_good_a8third_sku_id:
+    headers:
+        accept: application/json, text/plain, */*
+        accept-encoding: gzip
+        accept-language: zh-CN,zh;q=0.9
+        content-type: application/json;charset=UTF-8
+        user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+            (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36
+    allures:
+      story: 创建单独的A8货号商品
+      severity: critical
+    validations:
+        expected_code: 200
+        expected_content: {"code":200,"message":"","error":"","details":null}
+
+  only_good_gythird_sku_id:
+      headers:
+          accept: application/json, text/plain, */*
+          accept-encoding: gzip
+          accept-language: zh-CN,zh;q=0.9
+          content-type: application/json;charset=UTF-8
+          user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+              (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36
+      response:
+          expected_code: 200
+          expected_content: {"code":200,"message":"","error":"","details":null}
+
+  lack_goods_name:
+      headers:
+          accept: application/json, text/plain, */*
+          accept-encoding: gzip
+          accept-language: zh-CN,zh;q=0.9
+          authorization: ${authorization}
+          content-type: application/json;charset=UTF-8
+          user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+              (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36
+      request:
+          httpVersion: HTTP/1.1
+          method: POST
+      validations:
+          expected_code: 400
+          expected_content: {"code":400,"message":"商品名称不能为空","error":"","details":null}
+
+  lack_goods_sort:
+      headers:
+          accept: application/json, text/plain, */*
+          accept-encoding: gzip
+          accept-language: zh-CN,zh;q=0.9
+          content-type: application/json;charset=UTF-8
+          user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+              (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36
+      request:
+          httpVersion: HTTP/1.1
+          method: POST
+      validations:
+          expected_code: 400
+          expected_content: {"code":400,"message":"商品分类不能为空","error":"","details":null}
+
+  lack_good_third_sku_id:
+      headers:
+          accept: application/json, text/plain, */*
+          accept-encoding: gzip
+          accept-language: zh-CN,zh;q=0.9
+          authorization: ${authorization}
+          content-type: application/json;charset=UTF-8
+          user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+              (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36
+      request:
+          httpVersion: HTTP/1.1
+          method: POST
+      validations:
+          expected_code: 400
+          expected_content: {"code":400,"message":"第三方货号不能为空","error":"","details":null}
+
+  lack_good_bar_code:
+      headers:
+          accept: application/json, text/plain, */*
+          accept-encoding: gzip
+          accept-language: zh-CN,zh;q=0.9
+          authorization: ${authorization}
+          content-type: application/json;charset=UTF-8
+          user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+              (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36
+      request:
+          httpVersion: HTTP/1.1
+          method: POST
+          params: ${params}
+      validations:
+          expected_code: 400
+          expected_content: {"code":400,"message":"条码信息不能为空或为0","error":"","details":null}
